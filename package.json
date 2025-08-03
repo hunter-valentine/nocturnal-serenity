@@ -1,0 +1,31 @@
+{
+  "name": "nocturnal-serenity",
+  "displayName": "Nocturnal Serenity",
+  "description": "A low-contrast, nocturnal color theme inspired by , rainy city penthouses, and glowing airport terminals.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hunter-valentine/nocturnal-serenity.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "nocturnal",
+    "serenity",
+    "nocturnal serenity",
+    "hunter valentine"
+  ],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nocturnal Serenity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nocturnal-serenity-color-theme.json"
+      }
+    ]
+  }
+}
